@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('background.jpeg');
+    width: 100%;
+    height: 100%;
+}
+.content{
+    background: linear-gradient(to right, #a831ac, #e8690f);
+    width: 80%;
+    height: 400px;
+    margin: 150px 150px;
+    display: flex;
+    box-shadow: 0 0 10px 0 rgba(83,14,14,0.8);
+    border-radius: 5px;;
+}
+.container .content .para{
+
+    margin: 20px 20px;
+    color: white;
+    width: 70%;
+}
+.image img{
+    max-width: 100%;
+  height: auto;
+  transition: transform 5s ease;
+}
+.image img:hover {
+    transform: scale(1.2) rotate(90deg);
+    cursor: pointer;
+    
+  }
